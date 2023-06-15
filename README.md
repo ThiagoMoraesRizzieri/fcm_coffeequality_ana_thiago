@@ -16,7 +16,7 @@ Essa fonte de conhecimento é fundamental para todos os interessados em aprofund
 
 A sensometria é uma disciplina que envolve a análise de dados sensoriais, ou seja, dados relacionados às percepções humanas dos sentidos, como o paladar, olfato, visão e tato. No contexto do café, a qualidade sensorial desempenha um papel fundamental na satisfação do consumidor e na valorização do produto. Portanto, compreender e quantificar as características sensoriais do café é essencial para a indústria cafeeira.
 
-Nós, alunos de bioestatística, podemos nos interessar por essa área, pois ela oferece uma oportunidade de aplicar nossos conhecimentos estatísticos e analíticos em um campo específico. Através da sensometria, podemos explorar técnicas estatísticas avançadas para analisar e interpretar dados sensoriais complexos, obtidos por meio de testes sensoriais realizados por provadores especializados.
+Além disso, essa área oferece uma oportunidade de aplicar nossos conhecimentos estatísticos e analíticos em um campo específico. Através da sensometria, podemos explorar técnicas estatísticas avançadas para analisar e interpretar dados sensoriais complexos, obtidos por meio de testes sensoriais realizados por provadores especializados.
 
 Ao estudar dados sensoriais do café, podemos nos envolver em diversas atividades, como a criação de perfis sensoriais, o desenvolvimento de métodos de análise sensorial, a identificação de atributos de qualidade, a avaliação de diferenças sensoriais entre diferentes amostras de café, entre outras. Essas análises estatísticas fornecem informações valiosas para os produtores de café, permitindo-lhes melhorar a qualidade do produto, ajustar processos de produção e criar blends personalizados. 
 
@@ -24,9 +24,9 @@ Em resumo, nós nos motivamos a estudar dados sensoriais da qualidade do café e
 
 ## Descrição da atividade
 
-Buscaremos investigar questões como a relação dentre as características sensoriais como aroma, sabor, retrogosto, acidez e doçura, a influência do tipo de processamento nas notas sensoriais, a análise do impacto de diferentes fatores, como a origem do grão ou as práticas de cultivo, na qualidade sensorial. 
+Buscaremos investigar questões como a relação dentre as características sensoriais como aroma, sabor, retrogosto, acidez e doçura, a influência do tipo de processamento nas notas sensoriais e a análise do impacto de diferentes fatores, como a origem do grão ou as práticas de cultivo, na qualidade sensorial. 
 
-Faremos isso por meio de análise exploratória de dados, com o auxílio de gráficos para facilitar a visualização, como gráfico de barras, boxplots, nuvem, densidade e tabela de correlações.
+Faremos isso por meio de análise exploratória de dados, com o auxílio de gráficos para facilitar a visualização, como gráficos de barras, boxplots, de nuvem, de densidade e tabela de correlações.
 
 ## Referências
 
