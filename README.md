@@ -2,8 +2,7 @@
 
 # Dados sensoriais de qualidade do café
 
-####  Um trabalho feito por Ana Pontes e Thiago Moraes
-#### alunos do programa de Mestrado em Biometria - UNESP.
+####  Um trabalho feito por Ana Pontes e Thiago Moraes, alunos do programa de Mestrado em Biometria - UNESP de Botucatu.
 
 O Coffee Quality Institute (CQI) é uma organização sem fins lucrativos sediada na Califórnia, EUA, que tem como objetivo aprimorar a qualidade e o valor do café em escala global. Fundada em 1996, sua missão é promover a excelência do café por meio de diversas iniciativas, como pesquisa, treinamento e programas de certificação. O CQI colabora com cafeicultores, processadores, torrefadores e outras partes interessadas para elevar os padrões de qualidade do café, fomentar a sustentabilidade e apoiar o crescimento da indústria de cafés especiais.
 
