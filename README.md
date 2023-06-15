@@ -32,5 +32,5 @@ Faremos isso por meio de análise exploratória de dados, com o auxílio de grá
 
 [Coffee Quality Institute (CQI).](https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi)
 
-[Dataset de qualidade de café no Kaggle](https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi)
+[Dataset de qualidade de café no Kaggle.](https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi)
 
