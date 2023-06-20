@@ -1,0 +1,31 @@
+---
+title: "cafe"
+output: html_document
+date: "2023-06-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abrindo o arquivo
+
+```{r}
+df_cafe <- read.csv("df_arabica_clean.csv")
+```
+
+### Precisamos fazer uma limpeza na planilha de dados
+
+# Separando as variáveis numéricas
+# Adicionando um corrplot (meio malfeito ainda)
+# Observando média e desvio padrão de cada variável
+
+```{r}
+var_num_cafe <- df_cafe[,c(21:27,30,32,33)]
+
+corrplot(cor(var_num_cafe))
+
+apply(var_num_cafe, 2, mean)
+apply(var_num_cafe, 2, sd)
+```
+
