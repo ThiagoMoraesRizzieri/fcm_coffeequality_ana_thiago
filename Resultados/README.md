@@ -12,24 +12,24 @@ Existem outros protocolos utilizados pelo mundo afora, criados por outras organi
 
 Veremos à seguir os 11 atributos do protocólo SCA.
 
-##Aroma/Fragrância
+## Aroma/Fragrância
 
-##Sabor *(Flavor)*
+## Sabor *(Flavor)*
 
-##Retrogosto *(Aftertaste)*
+## Retrogosto *(Aftertaste)*
 
-##Acidez *(Acidity)*
+## Acidez *(Acidity)*
 
-##Corpo *(Body)*
+## Corpo *(Body)*
 
-##Harmonia *(Balance)*
+## Harmonia *(Balance)*
 
-##Uniformidade *(Uniformity)*
+## Uniformidade *(Uniformity)*
 
-##Ausência de defeitos *(CleanCup)*
+## Ausência de defeitos *(CleanCup)*
 
-##Doçura *(Sweetnes)*
+## Doçura *(Sweetnes)*
 
-##Conceito final *(Overall)*
+## Conceito final *(Overall)*
 
-##Resultado final *(Total cup points)*
+## Resultado final *(Total cup points)*
