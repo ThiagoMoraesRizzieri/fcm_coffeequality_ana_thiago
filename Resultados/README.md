@@ -1,3 +1,5 @@
+![Image](https://www.baristo.com.br/wp-content/uploads/2020/02/Quando-cobrar-pelo-cafe-do-seu-estabelecimento-1-scaled.jpg)
+
 # Teoria do café
 
 Como podemos dizer se um café é especial ou não? Lá em 1974, Erna Knutsen criou o termo "café especial" para se referir aos cafés com os sabores mais incríveis, que são produzidos em condições climáticas especiais. Mas só isso não era suficiente para o mercado de cafés de qualidade. Era preciso ter um padrão e uma maneira de comparar diferentes cafés e saber se eram realmente bons.
