@@ -25,27 +25,42 @@ A avaliação da Fragrância (Fragrance) e do Aroma (Aroma) é a primeira etapa 
 
 De forma simplificada, a Fragrância se refere ao cheiro do pó seco recém-moído, enquanto o Aroma se refere ao cheiro do café após ser molhado. O Grau de Torra (Roast Level) é um indicador da cor do café e do tipo de torra utilizada. No entanto, não é uma propriedade intrínseca dos grãos e, portanto, não influencia na pontuação.
 
+![Hist_1](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/5c261e1c-8d24-4843-a0c1-1dce25fb7c9e)
+
 ### Sabor *(Flavor)*
 O sabor é a característica principal do café, representando sua essência. Ele descreve as notas mais relevantes e quanto mais variadas e interessantes, maior será a pontuação atribuída. Além disso, nesse item também são consideradas as notas provenientes das sensações retro-nasais, que complementam a experiência gustativa.
+
+![Hist_2](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2a1cd3ba-2893-4213-b982-a204824cecac)
 
 ### Retrogosto *(Aftertaste)*
 O retrogosto, também conhecido como finalização, é determinado pela sensação que permanece após consumir o café. Uma sensação agradável e duradoura é um indicativo de uma pontuação mais alta. Sendo assim, esse atributo avalia a persistência e a qualidade residual do café, buscando identificar quanto tempo o sabor do café perdura na boca e se deixa uma impressão positiva.
 
+![Hist_3](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/3a4d0935-8654-4cf6-a5a4-a80625ff72a8)
+
 ### Acidez *(Acidity)*
 A acidez é frequentemente mal compreendida no mundo dos cafés especiais, especialmente pelos entusiastas. Uma acidez bem avaliada não deve ser confundida com acidez alta. Ela deve proporcionar prazer durante a degustação, lembrando o ácido natural das frutas. Em combinação com o açúcar natural, a acidez deve oferecer um sabor agradável. Por exemplo, podemos comparar a acidez do limão com a da mexerica. O limão tem uma acidez cítrica, enquanto a mexerica tem acidez cítrica e açúcar natural, resultando em um sabor completamente diferente, mas interessante e prazeroso. Nesse atributo, avaliam-se o tipo de acidez e sua intensidade (alta/baixa).
+
+![Hist_4](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/940c1b94-ad3d-4faa-b2f6-9335ab33f3e4)
 
 ### Corpo *(Body)*
 O corpo do café está relacionado à presença de óleos essenciais nas sementes e é frequentemente descrito como a sensação de preenchimento na boca. No caso dos cafés especiais, espera-se que essa sensação também complemente o paladar de maneira agradável. Um café com uma pontuação alta no atributo de corpo indica a presença de óleos essenciais distintos, que oferecem uma sensação de preenchimento na boca de forma agradável e prazerosa. Nesse atributo, avaliam-se tanto o corpo em relação aos óleos essenciais presentes quanto o nível de intensidade, classificando-o como alto/denso, médio ou delicado. 
 
+![Hist_5](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/a1712cab-e0ae-40bd-a76e-fe18f8f114c9)
+
 ### Harmonia *(Balance)*
 A harmonia, também conhecida como equilíbrio, considera a união do sabor, da acidez e do corpo, analisando se essa combinação faz sentido e se os sabores se harmonizam entre si. Uma bebida desequilibrada nos sabores, parecendo uma mistura incoerente, resultará em uma pontuação mais baixa. 
+
+![Hist_6](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/625b0249-05dd-43a9-938e-87af63e4d84b)
 
 |                       |
 |:---------------------:|
 | A harmonia é como um efeito em cascata, no qual três atributos são analisados simultaneamente e a discrepância em um deles afeta os demais. |
 
+
+
 ### Uniformidade *(Uniformity)*
 No atributo de uniformidade, são avaliadas cinco xícaras do mesmo café. Uma pontuação mais alta indica maior semelhança entre as xícaras. Se o café apresentar sabores diferentes nessas xícaras, ele será considerado não uniforme e receberá uma pontuação baixa. Cada xícara não uniforme reduzirá a pontuação em 2 pontos.
+
 
 ### Ausência de defeitos *(CleanCup)*
 A ausência de defeitos avalia a presença de sabores estranhos na xícara. Essas contaminações podem ser resultantes de gostos fenólicos, fermentados (com sabor de vinagre e não de fermentação induzida), grãos pretos/verdes/ardidos e outros sabores estranhos que não deveriam estar presentes em um café especial. Cada xícara que apresentar esses defeitos reduzirá a pontuação em 2 pontos.
@@ -53,8 +68,11 @@ A ausência de defeitos avalia a presença de sabores estranhos na xícara. Essa
 ### Doçura *(Sweetness)*
 Durante o processo de torra do café, ocorrem modificações nos açúcares presentes nas sementes, conhecido como fase Maillard. Torras leves preservam uma maior quantidade de açúcares, torras médias consomem parte desses açúcares por meio da caramelização, e torras escuras degradam completamente os açúcares, levando-os às cinzas. É esperado que a torra do café resulte em um sabor residual adocicado. Se uma xícara de café não apresentar o teor mínimo de açúcar esperado em relação às demais, serão reduzidos 2 pontos por xícara. A Doçura Mínima na xícara é medida com base em uma solução de sacarose (açúcar comum puro) com uma concentração de 0,5\% em massa/volume.
 
+
 ### Conceito final *(Overall)*
 O conceito final reflete a impressão pessoal do provador em relação ao café. Se forem identificadas características únicas de qualidade, sabor e outras distinções na bebida, o café receberá uma pontuação mais alta. Essa é a única parte subjetiva da avaliação, pois cada provador terá uma percepção individual e fornecerá sua própria opinião sobre o café. 
+
+![Hist_7](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/1e1a2dad-63ba-4d1d-bd9f-01c816127176)
 
 ### Resultado final *(Total cup points)*
 Nesse atributo, subtrai-se a pontuação dos "defeitos" da soma das notas dos outros 10 atributos para obter o índice de qualidade SCA do café, também conhecido como "nota do café" ou pontuação SCA. Os "defeitos" referem-se a sabores indesejáveis encontrados nas xícaras da amostra de café. Esses defeitos podem ser observados em uma única xícara ou em todas as xícaras (5 no total). A identificação de um defeito geralmente exclui o café da categoria de "café especial". Os defeitos são classificados em duas intensidades:
@@ -62,6 +80,8 @@ Nesse atributo, subtrai-se a pontuação dos "defeitos" da soma das notas dos ou
 - Mancha (Taint): É um defeito perceptível e identificável, mas que não torna a xícara impossível de ser apreciada. A mancha resulta na redução de 2 pontos por xícara em que é observada.
 
 - Falha (Fault): É um defeito que compromete o prazer da degustação, tornando o café não apreciável. A falha resulta na redução de 4 pontos por xícara em que é observada.
+
+![Hist_8](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/5ef7e80c-e034-4966-b464-bc1107046a07)
 
 Geralmente, cafés produzidos para o mercado de cafés especiais, utilizando boas práticas no pós-colheita, não apresentam "defeitos", pois todos os grãos foram colhidos maduros.
 
@@ -76,14 +96,22 @@ Ademais, a análise verde do café é um processo de avaliação das caracterís
 ### Porcentagem de umidade
 A porcentagem de umidade é uma medida que indica a quantidade de água presente nos grãos de café. É uma informação importante porque o teor de umidade afeta diretamente a qualidade e o sabor do café. Um teor de umidade muito alto pode levar a problemas de deterioração e mofo, enquanto um teor muito baixo pode resultar em perda de sabor e aroma. A porcentagem de umidade ideal pode variar dependendo do tipo de café, mas geralmente situa-se entre 10\% e 12\%.
 
+![Hist_9](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2ed88a0e-7d11-4e1b-91ec-86d2ed7bc7cc)
+
 ### Quaker
 O termo "quaker" é usado para descrever os grãos de café cru que não atingiram o ponto de torra adequado durante o processo de torrefação. Esses grãos não se desenvolvem corretamente e têm uma cor clara e pálida após a torra. Eles são considerados defeituosos e podem afetar negativamente o sabor e a qualidade do café. Os grãos de quaker geralmente têm características indesejáveis, como acidez excessiva e falta de doçura.
+
+![Hist_11](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/cab28f68-3ac0-4669-8e82-28bc51b451c5)
 
 ### Defeito tipo I
 Os defeitos primários do café verde incluem grãos que estão completamente pretos, completamente azedos, com cereja seca, danificados por fungos, contaminados com corpos estranhos ou com danos graves causados por insetos.
 
+![Hist_10](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2e7e563f-3ad3-4465-a472-2030770cefde)
+
 ### Defeito tipo II
 Os defeitos secundários incluem grãos parcialmente pretos, parcialmente azedos, com pergaminho, flutuadores, cerejas imaturas ou verdes, cerejas murchas, grãos quebrados, lascados ou cortados, e danos leves causados por insetos.
+
+![Hist_12](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/b1275145-7dfc-419b-8890-515fa8ec0faa)
 
 |                       |
 |:---------------------:|
@@ -318,19 +346,6 @@ ggplotly(tooltip = 'text')
 ```
 
 ## Resultados e discussões
-![Hist_1](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/5c261e1c-8d24-4843-a0c1-1dce25fb7c9e)
-![Hist_2](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2a1cd3ba-2893-4213-b982-a204824cecac)
-![Hist_3](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/3a4d0935-8654-4cf6-a5a4-a80625ff72a8)
-![Hist_4](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/940c1b94-ad3d-4faa-b2f6-9335ab33f3e4)
-![Hist_5](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/a1712cab-e0ae-40bd-a76e-fe18f8f114c9)
-![Hist_6](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/625b0249-05dd-43a9-938e-87af63e4d84b)
-![Hist_7](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/1e1a2dad-63ba-4d1d-bd9f-01c816127176)
-![Hist_8](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/5ef7e80c-e034-4966-b464-bc1107046a07)
-![Hist_9](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2ed88a0e-7d11-4e1b-91ec-86d2ed7bc7cc)
-![Hist_10](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2e7e563f-3ad3-4465-a472-2030770cefde)
-![Hist_11](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/cab28f68-3ac0-4669-8e82-28bc51b451c5)
-![Hist_12](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/b1275145-7dfc-419b-8890-515fa8ec0faa)
-
 ![correlações](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/3752e63e-d3e4-4c52-b09a-8cff3b3c82e6)
 
 ![barras](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/8dfbe2aa-dcd3-426a-88f1-4f46a33e124d)
@@ -339,8 +354,10 @@ ggplotly(tooltip = 'text')
 
 ## Conclusão
 
-## ReferÊncias
 
+## Referências
+[1] Coffee Quality Institute (CQI). (https://pt.coffeeinstitute.org/). Acesso em: 14 de jun. de 2023.
 
+[2] B, Fatih. Coffee Quality Data (CQI May-2023). Kaggle, 2023. (https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi}.) Acesso em: 14 de jun. de 2023.
 
 
