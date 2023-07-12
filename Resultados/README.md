@@ -2,17 +2,23 @@
 
 # Teoria do café
 
-Como podemos dizer se um café é especial ou não? Lá em 1974, Erna Knutsen criou o termo "café especial" para se referir aos cafés com os sabores mais incríveis, que são produzidos em condições climáticas especiais. Mas só isso não era suficiente para o mercado de cafés de qualidade. Era preciso ter um padrão e uma maneira de comparar diferentes cafés e saber se eram realmente bons.
+Como podemos determinar se um café é especial ou não? Em 1974, Erna Knutsen introduziu o termo "café especial" para descrever cafés com sabores excepcionais, produzidos sob condições climáticas especiais. No entanto, apenas essa definição não foi suficiente para o mercado de cafés de alta qualidade. Era necessário estabelecer um padrão e um método para comparar diferentes cafés e determinar se eles eram realmente bons.
 
-Foi aí que surgiu o TSC (Comitê de Padrões Técnicos), que permitiu quantificar a qualidade do café de forma objetiva, através do protocolo criado pela SCAA (Associação de Cafés Especiais da América). Esse protocolo é uma mão na roda para os consumidores, pois ajuda a escolher o café que mais agrada e deixa tudo mais claro para todos os envolvidos.
+Foi então que surgiu o Comitê de Padrões Técnicos (TSC), que permitiu a quantificação objetiva da qualidade do café por meio do protocolo desenvolvido pela Associação de Cafés Especiais da América (SCAA). Esse protocolo foi um recurso valioso para os consumidores, pois os ajudou a escolher o café que mais lhes agradava e trouxe clareza para todas as partes envolvidas.
 
-O relatório de avaliação do Protocolo SCA segue os critérios estabelecidos pelo TSC (que não existe mais) e pode ser feito por qualquer Q-Grader certificado em qualquer lugar do mundo. É uma escala de pontuação de zero a cem, com dez atributos que podem receber notas de seis a dez.
+O relatório de avaliação do Protocolo SCA segue os critérios estabelecidos pelo extinto TSC e pode ser realizado por qualquer Q-Grader certificado em qualquer lugar do mundo. Ele utiliza uma escala de pontuação de zero a cem, com dez atributos que recebem notas de seis a dez.
 
-Se algum atributo ficar abaixo de seis, significa que o café é bem comum e não pode ser considerado especial. Além disso, a soma total das notas precisa ser igual ou maior que 80 para que o café seja considerado especial.
+Se algum atributo receber uma nota inferior a seis, significa que o café é comum e não pode ser considerado especial. Além disso, a soma total das notas deve ser igual ou superior a 80 para que o café seja considerado especial.
 
-Existem outros protocolos utilizados pelo mundo afora, criados por outras organizações e competições, como o Cup of Excellence. No entanto, o Protocolo SCA é considerado o padrão internacional para classificar cafés de qualidade.
+![FIG_1](https://github.com/anaapontes/fcm_coffeequality_ana_thiago/assets/127437836/607707f9-a4dd-4962-b55b-95f15f6e427b)
+Legenda: Escala de qualidade segundo o Protocolo SCA para cafés especiais.
 
-Veremos à seguir os 11 atributos do protocólo SCA.
+
+Existem outros protocolos utilizados em todo o mundo, criados por outras organizações e competições, como o Cup of Excellence. No entanto, o Protocolo SCA é considerado o padrão internacional para classificar cafés de alta qualidade.
+
+Curiosidade: O TSC for extinto pela própria SCAA após cumprir seu propósito e formular o Protocolo SCA. Em 2017, a SCAA se uniu à SCAE (Associação de cafés especiais da Europa), formando a atual SCA.
+
+A seguir, veremos os 11 atributos do Protocolo SCA:
 
 ## Fragrância/Aroma *(Fragrance/Aroma)*
 
