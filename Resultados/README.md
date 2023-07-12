@@ -318,6 +318,24 @@ ggplotly(tooltip = 'text')
 ```
 
 ## Resultados e discussões
+![Hist_1](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/5c261e1c-8d24-4843-a0c1-1dce25fb7c9e)
+![Hist_2](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2a1cd3ba-2893-4213-b982-a204824cecac)
+![Hist_3](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/3a4d0935-8654-4cf6-a5a4-a80625ff72a8)
+![Hist_4](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/940c1b94-ad3d-4faa-b2f6-9335ab33f3e4)
+![Hist_5](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/a1712cab-e0ae-40bd-a76e-fe18f8f114c9)
+![Hist_6](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/625b0249-05dd-43a9-938e-87af63e4d84b)
+![Hist_7](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/1e1a2dad-63ba-4d1d-bd9f-01c816127176)
+![Hist_8](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/5ef7e80c-e034-4966-b464-bc1107046a07)
+![Hist_9](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2ed88a0e-7d11-4e1b-91ec-86d2ed7bc7cc)
+![Hist_10](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2e7e563f-3ad3-4465-a472-2030770cefde)
+![Hist_11](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/cab28f68-3ac0-4669-8e82-28bc51b451c5)
+![Hist_12](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/b1275145-7dfc-419b-8890-515fa8ec0faa)
+
+![correlações](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/3752e63e-d3e4-4c52-b09a-8cff3b3c82e6)
+
+![barras](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/8dfbe2aa-dcd3-426a-88f1-4f46a33e124d)
+
+![mapa](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/fa27471a-0921-44fa-bfe8-02548a7ed022)
 
 ## Conclusão
 
