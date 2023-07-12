@@ -170,7 +170,7 @@ ggplot(data = melted_corr_mat, aes(x=Var1, y=Var2,
                                    fill=value)) +
   geom_tile() +
   scale_fill_gradient2(low = "red", high = "blue", mid = "white", midpoint = 0, limit = c(-1, 1), space = "Lab",
-                       name = "Correlation") +
+                       name = "Correlacao") +
   geom_text(aes(Var2, Var1, label = value),
             color = "black", size = 4) + 
   theme(axis.text.x = element_text(angle=45, vjust = 1, hjust = 1)) +
@@ -178,8 +178,8 @@ ggplot(data = melted_corr_mat, aes(x=Var1, y=Var2,
   theme(legend.title=element_text(face="bold"),
         plot.title= element_text(size=14,
                                  face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold"))
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank())
 
 ```
 
