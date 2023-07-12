@@ -1,5 +1,5 @@
 ---
-title: "cafe"
+title: "Dados sensoriais de qualidade do cafe"
 output: html_document
 date: "2023-06-20"
 ---
@@ -8,35 +8,191 @@ date: "2023-06-20"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+### Pacotes necessarios
+
 ```{r}
 library(tidyr)
 library(ggplot2)
 library(dplyr)
 library(corrplot)
 library(plotly)
+library(maps)
+library(reshape2)
 ```
 
-
-# Abrindo o arquivo
+### Lendo o arquivo
 
 ```{r}
 df_cafe <- read.csv("df_arabica_clean.csv")
 ```
 
-### Precisamos fazer uma limpeza na planilha de dados
-
-# Separando as variaveis numericas
-# Adicionando um corrplot (meio malfeito ainda)
-# Observando media e desvio padrao de cada variavel
+### Pegamos as variaveis numericas relevantes
 
 ```{r}
-var_num_cafe <- df_cafe[,c(21:27,30,32,33)]
+var_num_cafe <- df_cafe[,c(21:26,30,32:35,37)]
 
-corrplot(cor(var_num_cafe))
+names(var_num_cafe) <- c('Aroma', 'Sabor', 'Retrogosto','Acidez','Corpo',
+                         'Harmonia', 'Conceito Final', 'Resultado final',
+                         'Porcentagem de umidade', 'Defeitos tipo I',
+                         'Quakers', 'Defeito tipo II')
+```
 
+### Histograma das variaveis sensoriais:
+
+```{r}
+ggplotly(ggplot(df_cafe, aes(x = Aroma, text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#3A1F05") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma do aroma")+
+  theme(plot.title= element_text(size=14,
+                                 color="#3A1F05",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold",color="#3A1F05"),
+        axis.title.y = element_text(face="bold",color="#3A1F05"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Flavor, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#572F07") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma do sabor")+
+  theme(plot.title= element_text(size=14,
+                                 color="#572F07",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#572F07"),
+        axis.title.y = element_text(face="bold", color="#572F07"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Aftertaste, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#6E3B08") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma do retrogosto")+
+  theme(plot.title= element_text(size=14,
+                                 color="#6E3B08",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#6E3B08"),
+        axis.title.y = element_text(face="bold", color="#6E3B08"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Acidity, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#81460A") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma da acidez")+
+  theme(plot.title= element_text(size=14,
+                                 color="#81460A",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#81460A"),
+        axis.title.y = element_text(face="bold", color="#81460A"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Body, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#A5590D") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma do corpo")+
+  theme(plot.title= element_text(size=14,
+                                 color="#A5590D",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#A5590D"),
+        axis.title.y = element_text(face="bold", color="#A5590D"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Balance, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#BD660F") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma da harmonia")+
+  theme(plot.title= element_text(size=14,
+                                 color="#BD660F",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#BD660F"),
+        axis.title.y = element_text(face="bold", color="#BD660F"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Overall, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#D5710D") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma do conceito final")+
+  theme(plot.title= element_text(size=14,
+                                 color="#D5710D",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#D5710D"),
+        axis.title.y = element_text(face="bold", color="#D5710D"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Total.Cup.Points, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#353A35") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma do resultado final")+
+  theme(plot.title= element_text(size=14,
+                                 color="#353A35",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#353A35"),
+        axis.title.y = element_text(face="bold", color="#353A35"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Moisture.Percentage, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 40, fill = "#006140") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma da porcentagem de umidade")+
+  theme(plot.title= element_text(size=14,
+                                 color="#006140",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#006140"),
+        axis.title.y = element_text(face="bold", color="#006140"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Category.One.Defects, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 12, fill = "#006600") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma da quantidade de defeitos tipo I")+
+  theme(plot.title= element_text(size=14,
+                                 color="#006600",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#006600"),
+        axis.title.y = element_text(face="bold", color="#006600"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Quakers, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 12, fill = "#054905") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma da quantidade de quakers")+
+  theme(plot.title= element_text(size=14,
+                                 color="#054905",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#054905"),
+        axis.title.y = element_text(face="bold", color="#054905"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+ggplotly(ggplot(df_cafe, aes(x = Category.Two.Defects, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 12, fill = "#032403") + labs(x = "Caracteristica Sensorial", y = "Frequencia", title = "Histograma da quantidade de defeitos tipo II")+
+  theme(plot.title= element_text(size=14,
+                                 color="#032403",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold", color="#032403"),
+        axis.title.y = element_text(face="bold", color="#032403"),
+        axis.text.x= element_text(face="bold"))
+,tooltip = 'text')
+
+```
+
+
+### Criando matriz de correlacoes
+
+```{r}
+corr_mat <- round(cor(var_num_cafe),2)
+```
+
+### Reduzindo o tamanho da matriz
+
+```{r}
+melted_corr_mat <- melt(corr_mat)
+head(melted_corr_mat)
+```
+
+### Plotando o grafico heatmap de correlacoes
+```{r}
+ggplot(data = melted_corr_mat, aes(x=Var1, y=Var2,
+                                   fill=value)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "red", high = "blue", mid = "white", midpoint = 0, limit = c(-1, 1), space = "Lab",
+                       name = "Correlation") +
+  geom_text(aes(Var2, Var1, label = value),
+            color = "black", size = 4) + 
+  theme(axis.text.x = element_text(angle=45, vjust = 1, hjust = 1)) +
+  labs(title = "Correlacao entre as variaveis numericas") +
+  theme(legend.title=element_text(face="bold"),
+        plot.title= element_text(size=14,
+                                 face="bold"),
+        axis.title.x = element_text(face="bold"),
+        axis.title.y = element_text(face="bold"))
+
+```
+
+### Podemos observar algumas estatisticas interessantes das variaveis
+
+```{r}
 apply(var_num_cafe, 2, mean)
-apply(var_num_cafe, 2, sd)
+apply(var_num_cafe, 2, var)
+```
 
+### Calculando a media dos valores sensoriais por pais
+
+```{r}
 df_medias <- df_cafe %>%
   group_by(Country.of.Origin) %>% 
   summarise(
@@ -49,48 +205,63 @@ df_medias <- df_cafe %>%
     media_Overall = mean(Overall),
     media_Total.Cup.Points = mean(Total.Cup.Points),
     media_Moisture.Percentage = mean(Moisture.Percentage)
-  )
+  ) 
 ```
 
-# Corrigindo nomes
+### Corrigindo o nome de alguns paises
 
 ```{r}
-
 df_medias$Country.of.Origin[18] <- "Tanzania"
 df_medias$Country.of.Origin[21] <- "USA"
 
 names(df_medias)[1] <- "region"
-
-
 ```
 
+### Grafico de barras do desempenho em cada pais 
+
 ```{r}
+
 ggplotly(df_medias %>% 
-  ggplot() +
-  geom_col(aes(x = reorder(region, -media_Aroma), y = media_Aroma), fill = "#753D06") +
+  ggplot(aes(text = paste('Pais:', region,
+                          '<br>Pontos totais: ', media_Total.Cup.Points))) +
+  geom_col(aes(x = reorder(region, -media_Total.Cup.Points), y = media_Total.Cup.Points), fill = "#753D06") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
   scale_y_continuous(breaks = scales::pretty_breaks(n = 10)) +
-  xlab("Paises") +
-  ylab("Media do Aroma"),
-  tooltip = "y") 
+  labs(x = "Paises", y = "Valor da media", title = "Media do resultado final de cada pais em grafico de barras")+
+  theme(plot.title= element_text(size=14,
+                                 color="#120900",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold"),
+        axis.title.y = element_text(face="bold"),
+        axis.text.x= element_text(face="bold"))+
+  coord_cartesian(ylim=c(70,90))
 
-
-
+,tooltip = "text") 
 ```
-# Fazendo mapa
+
+### Criando o grafico de mapa
 
 ```{r}
+
 world_map <- map_data("world")
 
 world_map <- left_join(world_map, df_medias, by = "region")
 
-world_map_1 <- world_map %>% filter(!is.na(world_map$media_Aroma))
+ggplotly(ggplot(world_map , aes( x = long, y = lat, group=group, text = paste('Pais:', region,
+                                                                     '<br>Pontos totais: ', media_Total.Cup.Points))) +
+  geom_polygon(aes(fill = media_Total.Cup.Points), color = "black") +
+  scale_fill_gradient(name = "Valor da media", low = "#DE9B58", high =  "#472401", na.value = "grey50") +
+  labs(x = "Longitude", y = "Latitude", title = "Media do resultado final de cada pais em mapa") +
+  theme(legend.title=element_text(color="#472401",
+                                    face="bold"),
+        plot.title= element_text(size=14,
+                                 color="#120900",
+                                 face="bold"),
+        axis.title.x = element_text(face="bold"),
+        axis.title.y = element_text(face="bold"))
 
-ggplot(world_map , aes( x = long, y = lat, group=group)) +
-  geom_polygon(aes(fill = media_Aroma), color = "black") +
-  scale_fill_gradient(name = "Media Aroma", low = "#DE9B58", high =  "#472401", na.value = "grey50")
-
-ggplotly() 
+,tooltip = 'text')
 ```
+
 
 
