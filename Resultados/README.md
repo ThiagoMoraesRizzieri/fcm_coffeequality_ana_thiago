@@ -1,14 +1,13 @@
 ![Image](https://www.baristo.com.br/wp-content/uploads/2020/02/Quando-cobrar-pelo-cafe-do-seu-estabelecimento-1-scaled.jpg)
 
-# Teoria do café
+# Qualidade do café
+Coffee Quality Data (CQI May-2023): https://www.kaggle.com/datasets/volpatto/coffee-quality-database-from-cqi
 
-Como podemos determinar se um café é especial ou não? Em 1974, Erna Knutsen introduziu o termo "café especial" para descrever cafés com sabores excepcionais, produzidos sob condições climáticas especiais. No entanto, apenas essa definição não foi suficiente para o mercado de cafés de alta qualidade. Era necessário estabelecer um padrão e um método para comparar diferentes cafés e determinar se eles eram realmente bons.
+## Introdução
 
-Foi então que surgiu o Comitê de Padrões Técnicos (TSC), que permitiu a quantificação objetiva da qualidade do café por meio do protocolo desenvolvido pela Associação de Cafés Especiais da América (SCAA). Esse protocolo foi um recurso valioso para os consumidores, pois os ajudou a escolher o café que mais lhes agradava e trouxe clareza para todas as partes envolvidas.
+Em 1974, Erna Knutsen introduziu o termo "café especial" para descrever cafés com sabores excepcionais, produzidos sob condições climáticas especiais. No entanto, apenas essa definição não foi suficiente para o mercado de cafés de alta qualidade. Era necessário estabelecer um padrão e um método para comparar diferentes cafés e determinar se eles eram realmente bons. Foi então que surgiu o Comitê de Padrões Técnicos (TSC), que permitiu a quantificação objetiva da qualidade do café por meio do protocolo desenvolvido pela Associação de Cafés Especiais da América (SCAA). Esse protocolo foi um recurso valioso para os consumidores, pois os ajudou a escolher o café que mais lhes agradava e trouxe clareza para todas as partes envolvidas.
 
-O relatório de avaliação do Protocolo SCA segue os critérios estabelecidos pelo extinto TSC e pode ser realizado por qualquer Q-Grader certificado em qualquer lugar do mundo. Ele utiliza uma escala de pontuação de zero a cem, com dez atributos que recebem notas de seis a dez.
-
-Se algum atributo receber uma nota inferior a seis, significa que o café é comum e não pode ser considerado especial. Além disso, a soma total das notas deve ser igual ou superior a 80 para que o café seja considerado especial. Essas notas descrevem os sabores em palavras, em comparação com os valores numéricos utilizados no protocolo. Alguns exemplos de notas incluem: "Possui notas de chocolate", "Notas de frutas vermelhas", "Café muito interessante com retrogosto longo e prazeroso", entre outros.
+O relatório de avaliação do Protocolo SCA segue os critérios estabelecidos pelo extinto TSC e pode ser realizado por qualquer Q-Grader certificado em qualquer lugar do mundo. Ele utiliza uma escala de pontuação de zero a cem, com dez atributos que recebem notas de seis a dez. Se algum atributo receber uma nota inferior a seis, significa que o café é comum e não pode ser considerado especial. Além disso, a soma total das notas deve ser igual ou superior a 80 para que o café seja considerado especial. Essas notas descrevem os sabores em palavras, em comparação com os valores numéricos utilizados no protocolo. Alguns exemplos de notas incluem: "Possui notas de chocolate", "Notas de frutas vermelhas", "Café muito interessante com retrogosto longo e prazeroso", entre outros.
 
 ![FIG_1](https://github.com/anaapontes/fcm_coffeequality_ana_thiago/assets/127437836/607707f9-a4dd-4962-b55b-95f15f6e427b)
 <p align="center"> Figura 1: Escala de qualidade segundo o Protocolo SCA para cafés especiais.</p>
@@ -72,8 +71,7 @@ Após a identificação das intensidades dos defeitos (Mancha ou Falha), multipl
 <p align="center"> Figura 2: Formulário de avaliação sensorial do café do Protocolo SCA. </p>
 
 
-## Análise verde
-A análise verde do café é um processo de avaliação das características físicas dos grãos de café cru antes do processo de torrefação. Essa análise é importante para determinar a qualidade e o valor do café antes de ser comercializado. Ela envolve a avaliação de várias características, como o tamanho dos grãos, a cor, a umidade e a presença de defeitos. Veremos a seguir outros parâmetros relevantes que são levados em consideração para a classificação do café:
+Ademais, a análise verde do café é um processo de avaliação das características físicas dos grãos de café cru antes do processo de torrefação. Essa análise é importante para determinar a qualidade e o valor do café antes de ser comercializado. Ela envolve a avaliação de várias características, como o tamanho dos grãos, a cor, a umidade e a presença de defeitos. Veremos a seguir outros parâmetros relevantes que são levados em consideração para a classificação do café:
 
 ### Porcentagem de umidade
 A porcentagem de umidade é uma medida que indica a quantidade de água presente nos grãos de café. É uma informação importante porque o teor de umidade afeta diretamente a qualidade e o sabor do café. Um teor de umidade muito alto pode levar a problemas de deterioração e mofo, enquanto um teor muito baixo pode resultar em perda de sabor e aroma. A porcentagem de umidade ideal pode variar dependendo do tipo de café, mas geralmente situa-se entre 10\% e 12\%.
@@ -94,6 +92,16 @@ Os defeitos secundários incluem grãos parcialmente pretos, parcialmente azedos
 Para avaliar a qualidade do café especial, a SCA utiliza amostras de 350g (12,3oz), as quais devem estar isentas de quaisquer defeitos primários e não podem apresentar mais do que cinco defeitos secundários. Esses critérios rigorosos garantem que apenas os cafés de alta qualidade atinjam os padrões estabelecidos pela associação.
 
 
+## Código .R
+```R
+
+```
+
+## Resultados e discussões
+
+## Conclusão
+
+## ReferÊncias
 
 
 
