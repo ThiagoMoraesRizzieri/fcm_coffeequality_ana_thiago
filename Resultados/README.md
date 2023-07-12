@@ -265,7 +265,7 @@ ggplot(data = melted_corr_mat, aes(x=Var1, y=Var2,
                                    fill=value)) +
   geom_tile() +
   scale_fill_gradient2(low = "red", high = "blue", mid = "white", midpoint = 0, limit = c(-1, 1), space = "Lab",
-                       name = "Correlation") +
+                       name = "Correlação") +
   geom_text(aes(Var2, Var1, label = value),
             color = "black", size = 4) + 
   theme(axis.text.x = element_text(angle=45, vjust = 1, hjust = 1)) +
@@ -273,14 +273,15 @@ ggplot(data = melted_corr_mat, aes(x=Var1, y=Var2,
   theme(legend.title=element_text(face="bold"),
         plot.title= element_text(size=14,
                                  face="bold"),
-        axis.title.x = element_text(face="bold"),
-        axis.title.y = element_text(face="bold"))
+        axis.title.x = element_blank(),
+        axis.title.y = element_blank())
 
 ggplotly(tooltip = c("y","x","fill"))
 
 # Podemos observar algumas estatísticas interessantes das variáveis
 apply(var_num_cafe, 2, mean)
 apply(var_num_cafe, 2, var)
+
 
 # Calculando a média dos valores sensoriais por país
 df_medias <- df_cafe %>%
@@ -346,7 +347,8 @@ ggplotly(tooltip = 'text')
 ```
 
 ## Resultados e discussões
-![correlações](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/3752e63e-d3e4-4c52-b09a-8cff3b3c82e6)
+![correlações](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/8d0adaaf-d118-4e94-8118-06c031f769a2)
+
 
 ![barras](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/8dfbe2aa-dcd3-426a-88f1-4f46a33e124d)
 
