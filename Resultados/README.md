@@ -393,17 +393,17 @@ Esses resultados destacam não apenas a qualidade do café produzido na Finca El
 No geral, este trabalho nos proporcionou uma compreensão mais profunda do processo de análise de qualidade do café, permitindo-nos explorar os dados de maneira mais significativa. Ao unir a teoria sensorial e a prática estatística, pudemos expandir nosso conhecimento e apreciação por essa bebida tão amada em todo o mundo.
 
 ## Referências
-[1] Coffee Quality Institute (CQI). (https://pt.coffeeinstitute.org/). Acesso em: 14 de jun. de 2023.
+[1] Coffee Quality Institute (CQI). Disponível em: https://pt.coffeeinstitute.org/. Acesso em: 14 de junho de 2023.
 
-[2] B, Fatih. Coffee Quality Data (CQI May-2023). Kaggle, 2023. (https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi}.) Acesso em: 14 de jun. de 2023.
+[2] B, Fatih. Coffee Quality Data (CQI May-2023). Kaggle, 2023. Disponível em: https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi. Acesso em: 14 de junho de 2023.
 
-[3] https://www.tostati.com.br/blog/entenda-o-protocolo-sca-e-seus-11-atributos/
+[3] J, Cesar. Entenda o protocolo SCA de pontuação de cafés especiais e seus 11 atributos. Tostati, 2021. Disponível em: https://www.tostati.com.br/blog/entenda-o-protocolo-sca-e-seus-11-atributos/. Acesso em: 07 de julho de 2023. 
 
-[4] https://mtpak.coffee/2022/07/a-guide-to-visually-spotting-green-coffee-defects/
+[4] K, Yoong. A guide to visually spotting green coffee defects. MTPAK, 2022. Disponível em: https://mtpak.coffee/2022/07/a-guide-to-visually-spotting-green-coffee-defects/. Acesso em: 07 de julho de 2023.
 
-[5] https://sca.training/howtocoffee/2021/1/12/coffee-grading-101
+[5] Adam S. Carpenter. How to grade green coffee - size, defects, scoring quality. ROCC, 2021. Disponível em: https://sca.training/howtocoffee/2021/1/12/coffee-grading-101. Acesso em: 07 de julho de 2023.
 
-[6] http://blog.bialettishop.com.br/notas-de-cafe/#:~:text=As%20notas%20de%20caf%C3%A9%20ou,de%20tabaco%2C%20ou%20frutas%20secas.
+[6] Bialetti. Entenda melhor sobre as notas de café. A Bialetti, 2022. Disponível em: http://blog.bialettishop.com.br/notas-de-cafe/#:~:text=As%20notas%20de%20caf%C3%A9%20ou,de%20tabaco%2C%20ou%20frutas%20secas. Acesso em: 12 de julho de 2023.
 
-[7] https://paradiseroasters.com/products/colombia-finca-el-paraiso-geisha-sake?variant=45122077524258
+[7] Paradise coffee roasters. Disponível em: https://paradiseroasters.com/products/colombia-finca-el-paraiso-geisha-sake?variant=45122077524258. Acesso em: 12 de julho de 2023.
 
