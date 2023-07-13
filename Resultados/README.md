@@ -57,10 +57,10 @@ A harmonia, também conhecida como equilíbrio, considera a união do sabor, da 
 | A harmonia é como um efeito em cascata, no qual três atributos são analisados simultaneamente e a discrepância em um deles afeta os demais. |
 
 
-
 ### Uniformidade *(Uniformity)*
 No atributo de uniformidade, são avaliadas cinco xícaras do mesmo café. Uma pontuação mais alta indica maior semelhança entre as xícaras. Se o café apresentar sabores diferentes nessas xícaras, ele será considerado não uniforme e receberá uma pontuação baixa. Cada xícara não uniforme reduzirá a pontuação em 2 pontos.
 
+A Uniformidade também está interligada com os dois próximos itens, a Ausência de defeitos e Doçura. Se há ausência de uniformidade, é verificado se isso afeta num sabor desagradável dentre as xícaras (perdendo pontos na ausência de defeitos) ou se há diferença significativa no açúcar residual (perdendo pontos na doçura).
 
 ### Ausência de defeitos *(CleanCup)*
 A ausência de defeitos avalia a presença de sabores estranhos na xícara. Essas contaminações podem ser resultantes de gostos fenólicos, fermentados (com sabor de vinagre e não de fermentação induzida), grãos pretos/verdes/ardidos e outros sabores estranhos que não deveriam estar presentes em um café especial. Cada xícara que apresentar esses defeitos reduzirá a pontuação em 2 pontos.
@@ -68,6 +68,9 @@ A ausência de defeitos avalia a presença de sabores estranhos na xícara. Essa
 ### Doçura *(Sweetness)*
 Durante o processo de torra do café, ocorrem modificações nos açúcares presentes nas sementes, conhecido como fase Maillard. Torras leves preservam uma maior quantidade de açúcares, torras médias consomem parte desses açúcares por meio da caramelização, e torras escuras degradam completamente os açúcares, levando-os às cinzas. É esperado que a torra do café resulte em um sabor residual adocicado. Se uma xícara de café não apresentar o teor mínimo de açúcar esperado em relação às demais, serão reduzidos 2 pontos por xícara. A Doçura Mínima na xícara é medida com base em uma solução de sacarose (açúcar comum puro) com uma concentração de 0,5\% em massa/volume.
 
+|                       |
+|:---------------------:|
+|  No caso dos nossos dados, todas as pontuações de uniformidade, ausência de defeitos e doçura foram máximas de 10 pontos. Assim, estatisticamente falando, os dados não contribuem com informações significativas. |
 
 ### Conceito final *(Overall)*
 O conceito final reflete a impressão pessoal do provador em relação ao café. Se forem identificadas características únicas de qualidade, sabor e outras distinções na bebida, o café receberá uma pontuação mais alta. Essa é a única parte subjetiva da avaliação, pois cada provador terá uma percepção individual e fornecerá sua própria opinião sobre o café. 
@@ -349,17 +352,58 @@ ggplotly(tooltip = 'text')
 ## Resultados e discussões
 ![correlações](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/8d0adaaf-d118-4e94-8118-06c031f769a2)
 
+Primeiramente, é importante observar que a uniformidade, ausência de defeitos e doçura foram constantes em todos os dados, resultando em uma variância zero. Consequentemente, a correlação entre essas variáveis e qualquer outra é indeterminada, uma vez que estaríamos dividindo por zero.
+
+Além disso, uma informação de grande destaque é a forte correlação positiva entre as variáveis sensoriais. Isso significa que, se um determinado café possui boas pontuações de sabor, podemos esperar que o aroma, a acidez, a harmonia e outras variáveis sensoriais também tenham boas pontuações. No entanto, é importante ressaltar que essa correlação não implica em causalidade, exceto no caso da variável Resultado Final, que é a soma das outras variáveis.
+
+No caso das variáveis da análise verde, a situação é um pouco diferente. A porcentagem de umidade e a quantidade de defeitos de categoria I não apresentam uma forte correlação com as variáveis sensoriais nem entre si. Isso pode indicar que, embora exista uma nota de corte para a umidade e quantidade de defeitos a fim de separar os cafés especiais, essas diferenças não são percebidas nas avaliações sensoriais.
+
+Por outro lado, a variável Quakers e a quantidade de defeitos de categoria II apresentam uma correlação positiva razoável entre si e uma correlação negativa fraca com todas as variáveis sensoriais. Isso significa que essas variáveis têm uma pequena tendência a influenciar negativamente as notas sensoriais, o que faz sentido, uma vez que ambas estão associadas a sabores desagradáveis por definição.
 
 ![barras](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/8dfbe2aa-dcd3-426a-88f1-4f46a33e124d)
 
 ![mapa](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/fa27471a-0921-44fa-bfe8-02548a7ed022)
 
+Ambos os gráficos de barras e o mapa de calor trabalham com a mesma informação, porém de maneiras distintas.
+
+No caso do mapa de calor global, podemos realizar comparações entre as regiões do globo, identificar tendências em diferentes áreas e avaliar o desempenho relativo de cada uma. No entanto, é mais difícil afirmar com certeza qual região teve o melhor ou pior desempenho, pois os tons de cores entre os melhores e os piores serão bem parecidos.
+
+Já o gráfico de barras, disposto em ordem decrescente, nos permite obter informações de maneira mais direta, incluindo a classificação dos países de acordo com seu desempenho. Com essa representação visual, é mais fácil identificar quais países se destacaram e quais ficaram em posições inferiores.
+
+Em resumo, ambos os tipos de gráficos são úteis e fornecem perspectivas diferentes sobre os dados, permitindo uma compreensão mais completa do desempenho dos países na análise de qualidade do café.
+
 ## Conclusão
 
+A qualidade do café é um aspecto essencial para os amantes dessa bebida apreciarem uma experiência sensorial única. O Protocolo SCA estabeleceu um padrão internacional para a classificação de cafés especiais, fornecendo diretrizes objetivas para avaliar diversos atributos sensoriais. Através desse protocolo, é possível quantificar e comparar a fragrância, aroma, sabor, retrogosto, acidez, corpo, harmonia, uniformidade, ausência de defeitos, doçura e o resultado final de um café.
+
+Os resultados obtidos com base nesse protocolo oferecem informações valiosas para a indústria do café, produtores, torrefadores, distribuidores e consumidores. Por meio das avaliações sensoriais, é possível identificar características distintas de cada café, como notas de sabor, aromas e equilíbrio, auxiliando os consumidores na escolha de um café que atenda às suas preferências.
+
+Além disso, a análise verde do café desempenha um papel fundamental na determinação da qualidade antes do processo de torrefação. A porcentagem de umidade, a presença de defeitos de categoria I e II, a uniformidade e a doçura são parâmetros essenciais na classificação dos grãos de café verde.
+
+Embora as variáveis da análise verde não apresentem uma forte correlação com as variáveis sensoriais, a presença de defeitos e a umidade inadequada podem afetar negativamente a qualidade e o sabor do café. Portanto, é importante que os produtores e especialistas em café estejam atentos a esses aspectos durante todo o processo de produção e beneficiamento.
+
+Em suma, o estabelecimento de padrões de qualidade, como o Protocolo SCA, e a análise cuidadosa dos atributos sensoriais e físicos do café são fundamentais para garantir que os consumidores desfrutem de uma xícara excepcional de café. Através dessas avaliações, é possível promover o reconhecimento e a valorização dos cafés especiais, bem como aprimorar a produção e a oferta desses produtos de alta qualidade no mercado global.
+
+Com a execução deste trabalho, foi possível aprofundar nosso conhecimento sobre a teoria por trás da análise de qualidade do café, especialmente em relação às notas sensoriais. Além disso, ao aplicarmos os conceitos aprendidos no uso do R, pudemos visualizar e extrair informações ainda mais relevantes dos dados.
+
+A título de curiosidade, durante a análise, identificamos que a amostra que obteve o melhor Resultado Final veio da Finca El Paraíso, localizada na Colômbia. Essa amostra apresenta uma torra clara, aromas distintos de uvas Moscatel, Mexerica, Pêra e Saquê. Além disso, sua acidez era crescente e a doçura se mostrava suculenta. A sensação na boca era extremamente exuberante e persistente, proporcionando uma experiência sensorial excepcional. Vale ressaltar que o preço dessa amostra é bastante elevado, custando 60 dólares (equivalente a 288,71 reais no preço atual) por 113,398 gramas (ou 4 onças).
+
+Esses resultados destacam não apenas a qualidade do café produzido na Finca El Paraíso, mas também a complexidade e a diversidade de características sensoriais que podem ser encontradas em diferentes amostras ao redor do mundo. Isso ressalta a importância de avaliações criteriosas e padronizadas, como o Protocolo SCA, para identificar e apreciar cafés especiais de alta qualidade.
+
+No geral, este trabalho nos proporcionou uma compreensão mais profunda do processo de análise de qualidade do café, permitindo-nos explorar os dados de maneira mais significativa. Ao unir a teoria sensorial e a prática estatística, pudemos expandir nosso conhecimento e apreciação por essa bebida tão amada em todo o mundo.
 
 ## Referências
 [1] Coffee Quality Institute (CQI). (https://pt.coffeeinstitute.org/). Acesso em: 14 de jun. de 2023.
 
 [2] B, Fatih. Coffee Quality Data (CQI May-2023). Kaggle, 2023. (https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi}.) Acesso em: 14 de jun. de 2023.
 
+[3] https://www.tostati.com.br/blog/entenda-o-protocolo-sca-e-seus-11-atributos/
+
+[4] https://mtpak.coffee/2022/07/a-guide-to-visually-spotting-green-coffee-defects/
+
+[5] https://sca.training/howtocoffee/2021/1/12/coffee-grading-101
+
+[6] http://blog.bialettishop.com.br/notas-de-cafe/#:~:text=As%20notas%20de%20caf%C3%A9%20ou,de%20tabaco%2C%20ou%20frutas%20secas.
+
+[7] https://paradiseroasters.com/products/colombia-finca-el-paraiso-geisha-sake?variant=45122077524258
 
