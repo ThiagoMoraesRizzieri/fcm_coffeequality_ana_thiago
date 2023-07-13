@@ -104,17 +104,18 @@ A porcentagem de umidade é uma medida que indica a quantidade de água presente
 ### Quaker
 O termo "quaker" é usado para descrever os grãos de café cru que não atingiram o ponto de torra adequado durante o processo de torrefação. Esses grãos não se desenvolvem corretamente e têm uma cor clara e pálida após a torra. Eles são considerados defeituosos e podem afetar negativamente o sabor e a qualidade do café. Os grãos de quaker geralmente têm características indesejáveis, como acidez excessiva e falta de doçura.
 
-![Hist_11](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/cab28f68-3ac0-4669-8e82-28bc51b451c5)
+![Hist_11](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/83147343/ffb3791a-a8af-475e-b169-c8bc15d9b350)
 
 ### Defeito tipo I
 Os defeitos primários do café verde incluem grãos que estão completamente pretos, completamente azedos, com cereja seca, danificados por fungos, contaminados com corpos estranhos ou com danos graves causados por insetos.
 
-![Hist_10](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/2e7e563f-3ad3-4465-a472-2030770cefde)
+![Hist_10](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/83147343/c538cf72-aff6-409a-961c-b4ea7b2ed6ab)
 
 ### Defeito tipo II
+
 Os defeitos secundários incluem grãos parcialmente pretos, parcialmente azedos, com pergaminho, flutuadores, cerejas imaturas ou verdes, cerejas murchas, grãos quebrados, lascados ou cortados, e danos leves causados por insetos.
 
-![Hist_12](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/127437836/b1275145-7dfc-419b-8890-515fa8ec0faa)
+![Hist 12](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/assets/83147343/b754e060-0db0-4d08-a127-4b2605b2704f)
 
 |                       |
 |:---------------------:|
