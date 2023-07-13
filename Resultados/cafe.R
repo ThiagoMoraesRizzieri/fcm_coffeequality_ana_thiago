@@ -102,31 +102,34 @@ ggplot(df_cafe, aes(x = Moisture.Percentage, y= ..count.., text = paste('Contage
         axis.text.x= element_text(face="bold"))
 ggplotly(tooltip = 'text')
 
-ggplot(df_cafe, aes(x = Category.One.Defects, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 12, fill = "#006600") + labs(x = "Característica Sensorial", y = "Frequência", title = "Histograma da quantidade de defeitos tipo I")+
+ggplot(df_cafe, aes(x = Quakers, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 12, fill = "#006600") + labs(x = "Característica Sensorial", y = "Frequência", title = "Histograma da quantidade de quakers")+
   theme(plot.title= element_text(size=14,
                                  color="#006600",
                                  face="bold"),
         axis.title.x = element_text(face="bold", color="#006600"),
         axis.title.y = element_text(face="bold", color="#006600"),
-        axis.text.x= element_text(face="bold"))
+        axis.text.x= element_text(face="bold"))+
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 12))
 ggplotly(tooltip = 'text')
 
-ggplot(df_cafe, aes(x = Quakers, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 12, fill = "#054905") + labs(x = "Característica Sensorial", y = "Frequência", title = "Histograma da quantidade de quakers")+
+ggplot(df_cafe, aes(x = Category.One.Defects, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 6, fill = "#054905") + labs(x = "Característica Sensorial", y = "Frequência", title = "Histograma da quantidade de defeitos tipo I")+
   theme(plot.title= element_text(size=14,
                                  color="#054905",
                                  face="bold"),
         axis.title.x = element_text(face="bold", color="#054905"),
         axis.title.y = element_text(face="bold", color="#054905"),
-        axis.text.x= element_text(face="bold"))
+        axis.text.x= element_text(face="bold"))+
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 6))
 ggplotly(tooltip = 'text')
 
-ggplot(df_cafe, aes(x = Category.Two.Defects, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 12, fill = "#032403") + labs(x = "Característica Sensorial", y = "Frequência", title = "Histograma da quantidade de defeitos tipo II")+
+ggplot(df_cafe, aes(x = Category.Two.Defects, y= ..count.., text = paste('Contagem:', ..count..))) + geom_histogram(bins = 16, fill = "#032403") + labs(x = "Característica Sensorial", y = "Frequência", title = "Histograma da quantidade de defeitos tipo II")+
   theme(plot.title= element_text(size=14,
                                  color="#032403",
                                  face="bold"),
         axis.title.x = element_text(face="bold", color="#032403"),
         axis.title.y = element_text(face="bold", color="#032403"),
-        axis.text.x= element_text(face="bold"))
+        axis.text.x= element_text(face="bold"))+
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 16))
 ggplotly(tooltip = 'text')
 
 #---------------------------------------------
