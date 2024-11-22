@@ -28,6 +28,10 @@ Buscaremos investigar questões como a relação dentre as características sens
 
 Faremos isso por meio de análise exploratória de dados, com o auxílio de gráficos para facilitar a visualização, como gráficos de barras, boxplots, de nuvem, de densidade e tabela de correlações.
 
+## Resultados
+
+Confira os nossos resultados [aqui](https://github.com/ThiagoMoraesRizzieri/fcm_coffeequality_ana_thiago/tree/main/Resultados).
+
 ## Referências
 
 [Coffee Quality Institute (CQI).](https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi)
